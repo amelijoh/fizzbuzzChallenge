@@ -25,9 +25,11 @@ class ViewController: UIViewController {
     }
 
     @IBAction func fizzbuzzCheckButton(sender: UIButton) {
-        var userNumber = Int(numberInsertTextfield.text!)
+        let userNumber = Int(numberInsertTextfield.text!)
         if userNumber! % 15 == 0 {
             fizzbuzzResultLabel.text = "Fizzbuzz!"
+        } else if  userNumber! % 3 == 0 {
+            fizzbuzzResultLabel.text = "Fizz"
         }
     }
 
