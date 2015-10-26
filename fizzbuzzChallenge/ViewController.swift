@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var numberInsertTextfield: UITextField!
    
+    @IBOutlet weak var fizzbuzzResultLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
