@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		3B0AC4A81BDE7B8C00FD423E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0AC4A71BDE7B8C00FD423E /* AppDelegate.swift */; };
 		3B0AC4AA1BDE7B8C00FD423E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0AC4A91BDE7B8C00FD423E /* ViewController.swift */; };
-		3B0AC4AD1BDE7B8C00FD423E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0AC4AB1BDE7B8C00FD423E /* Main.storyboard */; };
 		3B0AC4AF1BDE7B8C00FD423E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0AC4AE1BDE7B8C00FD423E /* Assets.xcassets */; };
 		3B0AC4B21BDE7B8C00FD423E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0AC4B01BDE7B8C00FD423E /* LaunchScreen.storyboard */; };
 		3B0AC4BD1BDE7B8D00FD423E /* fizzbuzzChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0AC4BC1BDE7B8D00FD423E /* fizzbuzzChallengeTests.swift */; };
 		3B0AC4C81BDE7B8D00FD423E /* fizzbuzzChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0AC4C71BDE7B8D00FD423E /* fizzbuzzChallengeUITests.swift */; };
+		3FCCE5761BDE81A000A1AB00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCCE5751BDE81A000A1AB00 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		3B0AC4A41BDE7B8C00FD423E /* fizzbuzzChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fizzbuzzChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0AC4A71BDE7B8C00FD423E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B0AC4A91BDE7B8C00FD423E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B0AC4AC1BDE7B8C00FD423E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B0AC4AE1BDE7B8C00FD423E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B0AC4B11BDE7B8C00FD423E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B0AC4B31BDE7B8C00FD423E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		3B0AC4C31BDE7B8D00FD423E /* fizzbuzzChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fizzbuzzChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0AC4C71BDE7B8D00FD423E /* fizzbuzzChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fizzbuzzChallengeUITests.swift; sourceTree = "<group>"; };
 		3B0AC4C91BDE7B8D00FD423E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCCE5751BDE81A000A1AB00 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = fizzbuzzChallenge/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 		3B0AC49B1BDE7B8C00FD423E = {
 			isa = PBXGroup;
 			children = (
+				3FCCE5751BDE81A000A1AB00 /* Main.storyboard */,
 				3B0AC4A61BDE7B8C00FD423E /* fizzbuzzChallenge */,
 				3B0AC4BB1BDE7B8D00FD423E /* fizzbuzzChallengeTests */,
 				3B0AC4C61BDE7B8D00FD423E /* fizzbuzzChallengeUITests */,
@@ -99,7 +100,6 @@
 			children = (
 				3B0AC4A71BDE7B8C00FD423E /* AppDelegate.swift */,
 				3B0AC4A91BDE7B8C00FD423E /* ViewController.swift */,
-				3B0AC4AB1BDE7B8C00FD423E /* Main.storyboard */,
 				3B0AC4AE1BDE7B8C00FD423E /* Assets.xcassets */,
 				3B0AC4B01BDE7B8C00FD423E /* LaunchScreen.storyboard */,
 				3B0AC4B31BDE7B8C00FD423E /* Info.plist */,
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FCCE5761BDE81A000A1AB00 /* Main.storyboard in Resources */,
 				3B0AC4B21BDE7B8C00FD423E /* LaunchScreen.storyboard in Resources */,
 				3B0AC4AF1BDE7B8C00FD423E /* Assets.xcassets in Resources */,
-				3B0AC4AD1BDE7B8C00FD423E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3B0AC4AB1BDE7B8C00FD423E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B0AC4AC1BDE7B8C00FD423E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B0AC4B01BDE7B8C00FD423E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -484,6 +476,7 @@
 				3B0AC4CE1BDE7B8D00FD423E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B0AC4CF1BDE7B8D00FD423E /* Build configuration list for PBXNativeTarget "fizzbuzzChallengeTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +485,7 @@
 				3B0AC4D11BDE7B8D00FD423E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B0AC4D21BDE7B8D00FD423E /* Build configuration list for PBXNativeTarget "fizzbuzzChallengeUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +494,7 @@
 				3B0AC4D41BDE7B8D00FD423E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
